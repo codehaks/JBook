@@ -3,7 +3,9 @@ using System.Collections.Generic;
 
 namespace JBook.Web.Data;
 
-public partial class BookData
+public partial class Book
 {
     public string? Data { get; set; }
+
+    public int Id { get; set; }
 }
